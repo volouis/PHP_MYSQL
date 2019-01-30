@@ -6,7 +6,7 @@
 
   // $id = $_GET['id'];
 
-  echo $id
+  echo h($id);
 ?>
 
 <a href="show.php?name=<?php echo u('John Doe'); ?>">Link</a><br />
